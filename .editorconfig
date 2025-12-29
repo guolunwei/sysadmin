@@ -1,0 +1,13 @@
+# Google Shell Style (.editorconfig for shfmt)
+
+[*.sh]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# shfmt-specific settings
+binary_next_line = true     # same as -bn
+switch_case_indent = true   # same as -ci
+space_redirects = true      # same as -sr
